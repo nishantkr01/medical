@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-back{
+    background: rgba(17,219,207,0.8);
+    color: #fff;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color:#fff;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    outline:none!important;
+}
+
+/* Hero section */
+#hero{
+    width:100%;
+    height: 80vh;
+    background: url(images/hero.jpg);
+    background-size: cover;
+    /* background-position-y: center; */
+    /* background: no-repeat; */
+    
+}
+
+#hero .container{
+    padding-top: 80px;
+}
+#hero::before{
+    content:"";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    color: rgba(17,219,207,1);
+}
+#hero h2{
+    color: rgba(5, 5, 5, 0.5);
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0, 5px;
+}
+
+.main-btn{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin:10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.main-btn:hover{
+    background: #11dbcf;
+    border:2px solid #11dbcf;
+    text-decoration: none;
+    color: #fff;
+}
+
+.service{
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    background: rgba(17,219,207,0.8);
+
+}
+
+.service .icon{
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #ffff;
+    border-radius: 60px;
+}
+
+.service .icon i{
+    font-size: 44px;
+    line-height: 1;
+    position: relative;
+    color: royalblue;
+}
+
+.service h4{
+    margin: 10px 0 15px 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.service p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.form-css{
+    margin-top: 90px;
+}
+.jumbotron{
+   background: rgba(17,219,207,0.8);
+}
